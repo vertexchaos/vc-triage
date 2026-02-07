@@ -1,7 +1,12 @@
-# Outputs / dumps / runs
+# OS / editor
+.vscode/
+*.user
+*.suo
+
+# Outputs / artifacts (do NOT publish client data or samples)
 out/
+assets/
 archive/
-assets/screenshots/
 vc_ad_triage_*/
 ad_import_*/
 fake-data/
@@ -13,12 +18,11 @@ fake-data/
 *.log
 *.csv
 *.json
-*.txt
 
-# Editors
-.vscode/
-.idea/
+# PowerShell noise
+*.clixml
 
-# OS junk
-.DS_Store
-Thumbs.db
+# Node / python just in case
+node_modules/
+.venv/
+__pycache__/
