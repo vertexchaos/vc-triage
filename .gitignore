@@ -1,5 +1,14 @@
+# Outputs / runs
 out/
 archive/
-*.zip
 vc_ad_triage_*/
-ad_import_*/
+
+# Generated artifacts
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# PowerShell noise
+*.log
