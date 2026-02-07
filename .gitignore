@@ -1,22 +1,24 @@
-# Outputs / runs
+# Outputs / dumps / runs
 out/
 archive/
-ad_import_*/
+assets/screenshots/
 vc_ad_triage_*/
-**/vc_ad_triage_*/
-**/ad_import_*/
-
-# Samples / artifacts
+ad_import_*/
+fake-data/
 *.zip
 *.pdf
 *.png
 *.jpg
 *.jpeg
+*.log
+*.csv
+*.json
+*.txt
 
-# OS/editor junk
+# Editors
+.vscode/
+.idea/
+
+# OS junk
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# PowerShell transient
-*.log
