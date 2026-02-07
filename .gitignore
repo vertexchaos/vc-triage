@@ -1,14 +1,22 @@
 # Outputs / runs
 out/
 archive/
+ad_import_*/
 vc_ad_triage_*/
+**/vc_ad_triage_*/
+**/ad_import_*/
 
-# Generated artifacts
+# Samples / artifacts
 *.zip
 *.pdf
 *.png
 *.jpg
 *.jpeg
 
-# PowerShell noise
+# OS/editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PowerShell transient
 *.log
