@@ -1,28 +1,21 @@
-# OS / editor
+# OS / editor junk
 .vscode/
-*.user
-*.suo
+*.swp
+Thumbs.db
+Desktop.ini
 
-# Outputs / artifacts (do NOT publish client data or samples)
+# Outputs / runs / archives
 out/
-assets/
 archive/
+assets/screenshots/
 vc_ad_triage_*/
 ad_import_*/
 fake-data/
+
+# Reports & artifacts
 *.zip
 *.pdf
 *.png
 *.jpg
 *.jpeg
 *.log
-*.csv
-*.json
-
-# PowerShell noise
-*.clixml
-
-# Node / python just in case
-node_modules/
-.venv/
-__pycache__/
